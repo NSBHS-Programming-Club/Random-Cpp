@@ -24,6 +24,20 @@ class helpers{
             a[size-1] = temp;
         }
 
+        int* bubbleSort(int a[], int size){
+            for(int i = 1; i < size; i++){
+                if(a[i] < a[i-1]){
+                    int temp = a[i-1];
+                    a[i-1] = a[i];
+                    a[i] = temp;
+                }
+            }
+            if(helpers::isSorted(a, size) == false){
+                helpers::bubbleSort(a, size);
+            }
+            return a;
+        }
+
         void swap(int i ,int j, int *a){
             int temp = a[j];
             a[j] = a[i];

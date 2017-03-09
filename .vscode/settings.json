@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "xutility": "cpp",
-        "xiosbase": "cpp"
+        "xiosbase": "cpp",
+        "iostream": "cpp"
     }
 }
