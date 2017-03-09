@@ -5,6 +5,8 @@
 
 ## Example
 A typical Taylor Series for sine looks like
+
+
 ![alt tag](http://tutorial.math.lamar.edu/Classes/DE/TaylorSeries_files/eq0015P.gif)
 
 ## How to use the functions
