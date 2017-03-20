@@ -1,5 +1,4 @@
 #include "../../libraries/helpers.cpp"
-#include <limits>
 
 //check if array is sorted
 bool isSorted(int a[], int size){
